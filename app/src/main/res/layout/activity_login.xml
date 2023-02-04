@@ -37,13 +37,14 @@
                 app:startIconDrawable="@drawable/ic_baseline_email_24">
 
             <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etLoginEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Email"
-                    android:textColorHint="@color/black"
+                    android:inputType="textEmailAddress"
                     android:textColor="@color/black"
-                    android:textCursorDrawable="@null"
-                    android:inputType="textEmailAddress"/>
+                    android:textColorHint="@color/black"
+                    android:textCursorDrawable="@null" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -57,17 +58,18 @@
                 app:startIconDrawable="@drawable/ic_baseline_lock_24">
 
             <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etLoginPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Password"
-                    android:textColorHint="@color/black"
+                    android:inputType="textPassword"
                     android:textColor="@color/black"
-                    android:textCursorDrawable="@null"
-                    android:inputType="textPassword"/>
+                    android:textColorHint="@color/black"
+                    android:textCursorDrawable="@null" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-                android:id="@+id/button"
+                android:id="@+id/btnSignIn"
                 android:layout_width="250dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
@@ -107,14 +109,15 @@
         </LinearLayout>
 
         <com.google.android.gms.common.SignInButton
+                android:id="@+id/btnGoogleSignIn"
                 android:layout_width="250dp"
                 android:layout_height="60dp"
-                android:layout_marginTop="10dp" >
+                android:layout_marginTop="10dp">
 
         </com.google.android.gms.common.SignInButton>
 
         <TextView
-                android:id="@+id/textView"
+                android:id="@+id/tvSignUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
@@ -123,7 +126,7 @@
                 android:textSize="20sp" />
 
         <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/tvForgotPassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
