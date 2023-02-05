@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "224424342605",
+    "project_id": "quizarc-56240",
+    "storage_bucket": "quizarc-56240.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224424342605:android:8fb8e8252455ecb9399804",
+        "android_client_info": {
+          "package_name": "com.tlz.quizgamearc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224424342605-51qfe1jptl4v2tif296o14cu1cvf363e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tlz.quizgamearc",
+            "certificate_hash": "a6a22d54882d01b4aa92b97fddab1a99adcb8b4c"
+          }
+        },
+        {
+          "client_id": "224424342605-r3fjuskcklrkh56n7lannol5065g16sb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAQylUWT9JQKiau2b0vbxF75zlyv73ptY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224424342605-r3fjuskcklrkh56n7lannol5065g16sb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

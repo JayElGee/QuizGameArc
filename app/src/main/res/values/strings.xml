@@ -2,5 +2,6 @@
     <string name="app_name">QuizGameArc</string>
     <string name="quiz_game_main">Quiz Game</string>
     <string name="acc">Need to create an account? <font color="#5b39c6"><b><i><u>Sign Up</u></i></b></font></string>
-    <string name="forgot_password"><u>I forgot my password</u></string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="btn_logout"><u>Log Out</u></string>
 </resources>
