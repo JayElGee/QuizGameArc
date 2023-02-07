@@ -4,4 +4,10 @@
     <string name="acc">Need to create an account? <font color="#5b39c6"><b><i><u>Sign Up</u></i></b></font></string>
     <string name="forgot_password"><u>Forgot Password?</u></string>
     <string name="btn_logout"><u>Log Out</u></string>
+    <string name="btn_being_quiz">Begin Quiz</string>
+    <string name="tv_correct_answer">Correct Answer:</string>
+    <string name="tv_wrong_answer">Wrong Answer:</string>
+    <string name="tv_empty_0">0</string>
+    <string name="btn_play_again">Play Again</string>
+    <string name="btn_exit">Exit</string>
 </resources>
